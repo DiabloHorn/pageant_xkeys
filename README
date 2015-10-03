@@ -1,0 +1,4 @@
+Dump unencrypted SSH keys from a pageant memory dump
+
+create dump with: 
+procdump.exe -ma pageant
