@@ -1,4 +1,9 @@
 Dump unencrypted SSH keys from a pageant memory dump
+https://diablohorn.wordpress.com/2015/10/03/pageant-key-extraction-automated/
+https://diablohorn.wordpress.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/
 
 create dump with: 
 procdump.exe -ma pageant
+
+You can use the keys from 'keys_test' to create a 
+memory dump with which you can play around
